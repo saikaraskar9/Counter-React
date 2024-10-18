@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.number{
+    font-size: 6rem;
+}
+
+.btn-container{
+ height: 100px;
+ width: 30rem;
+ gap: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 5rem;
+}
+
+.increment,.decrement{
+    width:5rem;
+    height:5rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: #696969;
+    cursor: pointer;
+}
